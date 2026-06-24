@@ -1,0 +1,6 @@
+package moscow.elegant.systems.event.impl.player;
+
+import moscow.elegant.systems.event.Event;
+
+public class ClientPlayerTickEvent extends Event {
+}

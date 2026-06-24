@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sliznyakvisual",
+  "version": "2.0.9",
+  "name": "SliznyakVisual",
+  "description": "Вспомогательный мод для комфортной игры",
+  "authors": [
+    "Nesquik",
+    "Sinlixx"
+  ],
+  "contact": {
+    "homepage": "https://elegant.moscow"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/elegant/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "sliznyakvisual.mixins.json"
+  ],
+  "accessWidener": "sliznyakvisual.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
